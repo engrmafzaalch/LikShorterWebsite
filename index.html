@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>URL Link Short</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <h1>Link Shorter</h1>
+      <div class="icons">
+        <span><i class="fab fa-facebook fa-2x"></i></span>
+        <span><i class="fab fa-linkedin fa-2x"></i></span>
+      </div>
+    </nav>
+    <!-- Navbar -->
+    <!-- Main Section -->
+    <main>
+      <form action="" id="form">
+        <h1>RigRex Link Shorter</h1>
+        <div class="input-group">
+          <input type="text" required class="userLink" placeholder="Your Url" />
+        </div>
+        <div class="input-group-custom">
+          <h4 class="special">Optional</h4>
+          <span class="optional-section" title="Get a custom link by putting your keyword">
+            <h4 class="optional-text">shorten.rigrex.com/</h4>
+            <input type="text" id="optional" />
+          </span>
+        </div>
+        <button type="submit" class="submitt">Submit</button>
+      </form>
+      <div class="display">
+        <!-- <form action=""> -->
+          <h1>Shorted URl</h1>
+          <span class="output">
+            <input type="text" class="output-field" placeholder="http://shorten.rigrex.com/" />
+            <button class="btn-copy" title="Copy"><i class="fa fa-clipboard fa-2x"></i></button>
+          </span>
+          <span class="msg">Link Copied!</span>
+        <!-- </form> -->
+      </div>
+    </main>
+    <footer>
+      <span>Powered By <a href="http://rigrex.com">RigRex</a></span>
+    </footer>
+    <!-- Main Section -->
+    <script src="./js/app.js"> </script>
+  </body>
+</html>
