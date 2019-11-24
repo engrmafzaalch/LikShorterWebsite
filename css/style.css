@@ -29,6 +29,9 @@ nav .icons {
 nav .icons span {
   padding-left: 1rem;
 }
+nav .icons a{
+  color: #000;
+}
 main {
   padding-top: 2rem;
   margin: 2rem;

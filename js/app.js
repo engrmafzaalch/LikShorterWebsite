@@ -12,6 +12,10 @@ document.querySelector("#form").addEventListener("submit", function(e) {
 });
 document.querySelector(".btn-copy").addEventListener("click", function() {
   copy();
+  document.querySelector(".btn-copy").classList.add('bounceIn');
+  setTimeout(function() {
+    document.querySelector(".btn-copy").classList.remove('bounceIn');
+  }, 2000);
 });
 function copy() {
   outputField.select();
@@ -26,5 +30,5 @@ function copied() {
   msg.style.display = "block";
   setTimeout(function() {
     msg.style.display = "none";
-  }, 4000);
+  }, 6000);
 }
